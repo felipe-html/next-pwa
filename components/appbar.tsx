@@ -2,8 +2,8 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const links = [
-	{ label: 'Story', href: '/story' },
-	{ label: 'Recipes', href: '/recipes' },
+	{ label: 'Agentes Nocivos', href: '/agentes-nocivos' },
+	{ label: 'Perigos', href: '/perigos' },
 ]
 
 const Appbar = () => {
@@ -15,13 +15,13 @@ const Appbar = () => {
 				<div className='mx-auto flex h-20 max-w-screen-md items-center justify-between px-6'>
 					<Link href='/'>
 						<a>
-							<h1 className='font-medium'>Rice Bowl</h1>
+							<h1 className='font-medium'>SESI Facilita</h1>
 						</a>
 					</Link>
 
 					<nav className='flex items-center space-x-6'>
 						<div className='hidden sm:block'>
-							<div className='flex items-center space-x-6'>
+							<div className='flex items-center space-x-8'>
 								{links.map(({ label, href }) => (
 									<Link key={label} href={href}>
 										<a
@@ -40,10 +40,9 @@ const Appbar = () => {
 
 						<div
 							title='Gluten Free'
-							className='h-10 w-10 rounded-full bg-zinc-200 bg-cover bg-center shadow-inner dark:bg-zinc-800'
+							className='vivi-image h-10 w-10 rounded-full bg-zinc-200 bg-cover shadow-inner'
 							style={{
-								backgroundImage:
-									'url(https://images.unsplash.com/photo-1612480797665-c96d261eae09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80)',
+								backgroundImage: 'url(/images/vivi.svg)',
 							}}
 						/>
 					</nav>

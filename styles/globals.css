@@ -10,3 +10,34 @@ body {
 	-webkit-tap-highlight-color: transparent;
 	-webkit-touch-callout: none;
 }
+
+
+
+header {
+	background-color: #114680 !important;
+}
+
+.botton-bar {
+	background-color:  #114680 !important;
+}
+
+nav {
+	background-color:  #114680 !important;
+}
+
+nav a {
+	/* color: white !important; */
+}
+
+.vivi-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.agentes-nocivos {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: .5rem;
+}
