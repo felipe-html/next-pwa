@@ -21,14 +21,14 @@ const Index = () => (
 
 				<br />
 
-				{/* <p className='text-sm text-zinc-600 dark:text-zinc-400'>
+				<p className='text-sm text-zinc-600 dark:text-zinc-400'>
 					<a
-						href='https://github.com/mvllow/next-pwa-template'
+						href='https://sesifacilita.zendesk.com/hc/pt-br'
 						className='underline'
 					>
-						Source
+						Precisa de ajuda? Clique aqui
 					</a>
-				</p> */}
+				</p>
 			</div>
 		</Section>
 	</Page>

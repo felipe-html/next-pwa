@@ -38,13 +38,9 @@ const Appbar = () => {
 							</div>
 						</div>
 
-						<div
-							title='Gluten Free'
-							className='vivi-image h-10 w-10 rounded-full bg-zinc-200 bg-cover shadow-inner'
-							style={{
-								backgroundImage: 'url(/images/vivi.svg)',
-							}}
-						/>
+						<div className='logo'>
+							<img src='/images/icon-256.png' alt='' />
+						</div>
 					</nav>
 				</div>
 			</header>
