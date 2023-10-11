@@ -15,7 +15,7 @@ const Appbar = () => {
 				<div className='mx-auto flex h-20 max-w-screen-md items-center justify-between px-6'>
 					<Link href='/'>
 						<a>
-							<h1 className='font-medium'>SESI Facilita</h1>
+							<h1 className='font-medium text-zinc-300'>SESI Facilita</h1>
 						</a>
 					</Link>
 
