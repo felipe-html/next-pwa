@@ -21,7 +21,7 @@ const BottomNav = () => {
 								}`}
 							>
 								{icon}
-								<span className='text-xs text-zinc-600 dark:text-zinc-400'>
+								<span className='text-xs text-zinc-600 dark:text-zinc-300'>
 									{label}
 								</span>
 							</a>

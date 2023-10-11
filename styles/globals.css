@@ -25,6 +25,10 @@ nav {
 	background-color:  #114680 !important;
 }
 
+nav a {
+	/* color: #d0d0d3 !; */
+}
+
 .logo {
 	display: flex;
 	align-items: center;
