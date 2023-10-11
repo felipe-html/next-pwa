@@ -17,7 +17,7 @@ const BottomNav = () => {
 								className={`flex h-full w-full flex-col items-center justify-center space-y-1 ${
 									router.pathname === href
 										? 'text-indigo-500 dark:text-indigo-400'
-										: 'text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
+										: 'text-zinc-300 hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-zinc-50'
 								}`}
 							>
 								{icon}
